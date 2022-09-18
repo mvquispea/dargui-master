@@ -1,0 +1,131 @@
+{
+  "menu": [
+    {
+      "url": "admin",
+      "name": "Inicio",
+      "icon": "home",
+      "slug": "admin"
+    },
+    {
+      "name": "Artículos",
+      "icon": "activity",
+      "slug": "",
+      "badgeClass": "badge badge-pill badge-light-danger ml-auto mr-1",
+      "submenu": [
+        {
+          "url": "articulos",
+          "name": "Ver Artículos",
+          "icon": "list",
+          "slug": "article.index"
+        },
+        {
+          "url": "articulos/nuevo",
+          "name": "Crear Artículo",
+          "icon": "plus",
+          "slug": "article.create"
+        }
+      ]
+    },
+    {
+      "name": "Artículos científicos",
+      "icon": "file-text",
+      "slug": "",
+      "badgeClass": "badge badge-pill badge-light-danger ml-auto mr-1",
+      "submenu": [
+        {
+          "url": "cientificos",
+          "name": "Ver Artículos",
+          "icon": "list",
+          "slug": "scientifics.index"
+        },
+        {
+          "url": "cientificos/nuevo",
+          "name": "Crear Artículo",
+          "icon": "plus",
+          "slug": "scientifics.create"
+        }
+      ]
+    },
+    {
+      "name": "Noticias",
+      "icon": "radio",
+      "slug": "",
+      "badgeClass": "badge badge-pill badge-light-danger ml-auto mr-1",
+      "submenu": [
+        {
+          "url": "lista-noticias",
+          "name": "Ver Noticias",
+          "icon": "list",
+          "slug": "noticias.index"
+        },
+        {
+          "url": "noticias/nuevo",
+          "name": "Crear Noticia",
+          "icon": "plus",
+          "slug": "noticias.create"
+        }
+      ]
+    },
+    {
+      "name": "Eventos",
+      "icon": "calendar",
+      "slug": "",
+      "badgeClass": "badge badge-pill badge-light-danger ml-auto mr-1",
+      "submenu": [
+        {
+          "url": "lista-eventos",
+          "name": "Ver Eventos",
+          "icon": "list",
+          "slug": "eventos.index"
+        },
+        {
+          "url": "eventos/nuevo",
+          "name": "Crear Evento",
+          "icon": "plus",
+          "slug": "eventos.create"
+        }
+      ]
+    },
+    {
+      "navheader": "Multimedia"
+    },
+    {
+      "name": "Videos",
+      "icon": "youtube",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "videos",
+          "name": "Ver videos",
+          "icon": "list",
+          "slug": "video.index"
+        },
+        {
+          "url": "videos/nuevo",
+          "name": "Crear video",
+          "icon": "plus",
+          "slug": "video.create"
+        }
+      ]
+    },
+    {
+      "name": "Infografías",
+      "icon": "image",
+      "slug": "",
+      "submenu" : [
+        {
+          "url": "infografias",
+          "name": "Ver infografías",
+          "icon": "list",
+          "slug": "infographics.index"
+        },
+        {
+          "url": "infografias/nuevo",
+          "name": "Crear infografía",
+          "icon": "plus",
+          "slug": "infographics.create"
+        }
+      ]
+    }
+  ]
+}
